@@ -1,3 +1,11 @@
 $primary: #148b60;
 $secondary: #111111;
-$dark: #000000
+$dark: #000000;
+
+//body color variable
+$body-bg: $dark;
+$body-color: white;
+
+//navlink color
+$nav-link-color: white;
+$nav-link-hover-color: $primary;

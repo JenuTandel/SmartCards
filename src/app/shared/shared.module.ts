@@ -6,7 +6,6 @@ import { ProductListComponent } from './components/product-list/product-list.com
 import { FilterProductComponent } from './components/filter-product/filter-product.component';
 import { PreviewImageComponent } from './components/preview-image/preview-image.component';
 import { SmartCardFormComponent } from './components/smart-card-form/smart-card-form.component';
-
 @NgModule({
   declarations: [
     CardComponent,

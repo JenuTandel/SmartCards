@@ -1,0 +1,20 @@
+.header {
+    height: 90px;
+
+    .logo-wrapper {
+        height: 60px;
+
+        .logo {
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    .nav-link {
+        cursor: pointer;
+    }
+
+    .active {
+        color: $primary;
+    }
+}
