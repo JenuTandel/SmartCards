@@ -5,9 +5,7 @@ import { FaqComponent } from './components/faq/faq.component';
 import { ProductListComponent } from './components/product-list/product-list.component';
 import { FilterProductComponent } from './components/filter-product/filter-product.component';
 import { PreviewImageComponent } from './components/preview-image/preview-image.component';
-import { CardFormComponent } from './components/card-form/card-form.component';
-
-
+import { SmartCardFormComponent } from './components/smart-card-form/smart-card-form.component';
 
 @NgModule({
   declarations: [
@@ -16,10 +14,16 @@ import { CardFormComponent } from './components/card-form/card-form.component';
     ProductListComponent,
     FilterProductComponent,
     PreviewImageComponent,
-    CardFormComponent
+    SmartCardFormComponent,
   ],
-  imports: [
-    CommonModule
-  ]
+  imports: [CommonModule],
+  exports: [
+    CardComponent,
+    FaqComponent,
+    ProductListComponent,
+    FilterProductComponent,
+    PreviewImageComponent,
+    SmartCardFormComponent,
+  ],
 })
-export class SharedModule { }
+export class SharedModule {}
