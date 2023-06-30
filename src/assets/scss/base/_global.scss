@@ -13,3 +13,12 @@ html {
 body {
     font-family: $font-family-base;
 }
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    all: unset
+}
