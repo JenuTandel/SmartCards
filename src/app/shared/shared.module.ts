@@ -6,6 +6,7 @@ import { ProductListComponent } from './components/product-list/product-list.com
 import { FilterProductComponent } from './components/filter-product/filter-product.component';
 import { PreviewImageComponent } from './components/preview-image/preview-image.component';
 import { SmartCardFormComponent } from './components/smart-card-form/smart-card-form.component';
+import { CustomersComponent } from './components/customers/customers.component';
 @NgModule({
   declarations: [
     CardComponent,
@@ -14,6 +15,7 @@ import { SmartCardFormComponent } from './components/smart-card-form/smart-card-
     FilterProductComponent,
     PreviewImageComponent,
     SmartCardFormComponent,
+    CustomersComponent,
   ],
   imports: [CommonModule],
   exports: [
@@ -23,6 +25,7 @@ import { SmartCardFormComponent } from './components/smart-card-form/smart-card-
     FilterProductComponent,
     PreviewImageComponent,
     SmartCardFormComponent,
+    CustomersComponent,
   ],
 })
 export class SharedModule {}
