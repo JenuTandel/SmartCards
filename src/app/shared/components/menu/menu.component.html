@@ -1,28 +1,49 @@
-<div class="menu">
-  <ul class="p-3 border border-sm border-secondary">
+<div class="menu bg-dark">
+  <ul class="p-3 border border-sm border-secondary" *ngIf="isCompany">
     <li class="p-2">
-      <a class="nav-link" routerLink="about-us">About Us</a>
+      <a class="nav-link" routerLink="about-us" (click)="closeDialog()"
+        >About Us</a
+      >
     </li>
-    <li class="p-2"><a class="nav-link" routerLink="career">Career</a></li>
-    <li class="p-2"><a class="nav-link" routerLink="faqs">FAQs</a></li>
-    <li class="p-2"><a class="nav-link" routerLink="media">Media</a></li>
+    <li class="p-2">
+      <a class="nav-link" routerLink="career" (click)="closeDialog()">Career</a>
+    </li>
+    <li class="p-2">
+      <a class="nav-link" routerLink="faqs" (click)="closeDialog()">FAQs</a>
+    </li>
+    <li class="p-2">
+      <a class="nav-link" routerLink="media" (click)="closeDialog()">Media</a>
+    </li>
   </ul>
-  <ul class="p-3 border border-sm border-secondary">
+  <ul class="p-3 border border-sm border-secondary" *ngIf="!isCompany">
     <li class="p-2">
-      <a class="nav-link" routerLink="#">Design Your Cards</a>
+      <a class="nav-link" routerLink="#" (click)="closeDialog()"
+        >Design Your Cards</a
+      >
     </li>
     <li class="p-2">
-      <a class="nav-link" routerLink="classic-smart-card"
+      <a
+        class="nav-link"
+        routerLink="collections/classic-smart-card"
+        (click)="closeDialog()"
         >Classic Smart Cards</a
       >
     </li>
     <li class="p-2">
-      <a class="nav-link" routerLink="nfc-business-cards"
+      <a
+        class="nav-link"
+        routerLink="collections/nfc-business-cards"
+        (click)="closeDialog()"
         >Premium Smart Cards</a
       >
     </li>
     <li class="p-2">
-      <a class="nav-link" routerLink="smart-acessories">Smart Accessories</a>
+      <a
+        class="nav-link"
+        routerLink="collections/smart-acessories"
+        (click)="closeDialog()"
+        >Smart Accessories</a
+      >
     </li>
   </ul>
 </div>

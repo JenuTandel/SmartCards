@@ -10,10 +10,14 @@
         >Home</a
       >
     </li>
-    <li class="nav-item">
+    <li
+      class="nav-item position-relative"
+      #company
+      (click)="openMenu($event, 'company')"
+    >
       <a class="nav-link fw-bold">Company</a>
     </li>
-    <li class="nav-item">
+    <li class="nav-item" (click)="openMenu($event, 'shop')">
       <a
         class="nav-link fw-bold"
         routerLink="collections"
