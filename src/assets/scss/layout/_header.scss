@@ -10,11 +10,15 @@
         }
     }
 
-    .nav-link {
-        cursor: pointer;
-    }
-
     .active {
         color: $primary;
     }
+}
+
+.nav-link {
+    cursor: pointer;
+}
+
+.menu {
+    width: 200px
 }
