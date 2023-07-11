@@ -13,4 +13,6 @@ export class HeaderComponent {
   openMenu(event: any, name: string) {
     this.overlayService.openDialog(MenuComponent, event.target, name);
   }
+
+  onShop() {}
 }

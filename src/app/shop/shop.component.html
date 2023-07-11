@@ -21,24 +21,35 @@
   <div class="row gx-0 py-5">
     <div class="col-4 gx-3">
       <h2 class="text-center text-primary fw-bold mb-3">Buisness Cards</h2>
-      <div class="img-wrapper overflow-hidden bg-white rounded-5">
+      <div
+        class="img-wrapper overflow-hidden bg-white rounded-5 cursor-pointer"
+        (click)="onBuisnessCard()"
+      >
         <img src="../../assets/images/s3.png" />
       </div>
     </div>
     <div class="col-4 gx-3">
       <h2 class="text-center text-primary fw-bold mb-3">Coins</h2>
-      <div class="img-wrapper overflow-hidden bg-white rounded-5">
+      <div
+        class="img-wrapper overflow-hidden bg-white rounded-5 cursor-pointer"
+        (click)="onCoins()"
+      >
         <img src="../../assets/images/s2.png" />
       </div>
     </div>
     <div class="col-4 gx-3">
       <h2 class="text-center text-primary fw-bold mb-3">Sockets</h2>
-      <div class="img-wrapper overflow-hidden bg-white rounded-5">
+      <div
+        class="img-wrapper overflow-hidden bg-white rounded-5 cursor-pointer"
+        (click)="onSockets()"
+      >
         <img src="../../assets/images/s1.png" />
       </div>
     </div>
   </div>
-  <router-outlet></router-outlet>
+  <section>
+    <router-outlet></router-outlet>
+  </section>
   <section class="px-3 py-5">
     <div class="row align-items-center">
       <div class="col-6 gx-5">

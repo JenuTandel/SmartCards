@@ -11,15 +11,15 @@ const routes: Routes = [
     component: ShopComponent,
     children: [
       {
-        path: 'classic-smart-card',
+        path: 'smart-cards',
         component: CardViewComponent,
       },
       {
-        path: 'nfc-business-cards',
+        path: 'smart-coins',
         component: CardViewComponent,
       },
       {
-        path: 'smart-acessories',
+        path: 'smart-sockets',
         component: CardViewComponent,
       },
     ],
