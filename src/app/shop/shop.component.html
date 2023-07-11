@@ -1,2 +1,72 @@
-<p>shop works!</p>
-<router-outlet></router-outlet>
+<section class="shop">
+  <div class="row px-3 py-5 bg-secondary">
+    <div class="col-4 d-flex flex-column align-items-center">
+      <p class="fs-5 mb-3">Don't Try So Hard To Network</p>
+      <h5 class="mb-3">____ JUST TAP ON ____</h5>
+      <h1 class="text-primary fw-bold">SMART CARDS</h1>
+    </div>
+    <div class="col-8 d-flex justify-content-center align-items-center">
+      <div
+        class="image-wrapper bg-white rounded-2 d-flex align-items-center justify-content-center"
+      >
+        <img src="../../assets/images/card-white.png" />
+      </div>
+      <div class="socket ms-3">
+        <img src="../../assets/images/ps1.png" class="me-3" />
+        <img src="../../assets/images/ps2.png" class="me-3" />
+        <img src="../../assets/images/ps3.png" />
+      </div>
+    </div>
+  </div>
+  <div class="row gx-0 py-5">
+    <div class="col-4 gx-3">
+      <h2 class="text-center text-primary fw-bold mb-3">Buisness Cards</h2>
+      <div class="img-wrapper overflow-hidden bg-white rounded-5">
+        <img src="../../assets/images/s3.png" />
+      </div>
+    </div>
+    <div class="col-4 gx-3">
+      <h2 class="text-center text-primary fw-bold mb-3">Coins</h2>
+      <div class="img-wrapper overflow-hidden bg-white rounded-5">
+        <img src="../../assets/images/s2.png" />
+      </div>
+    </div>
+    <div class="col-4 gx-3">
+      <h2 class="text-center text-primary fw-bold mb-3">Sockets</h2>
+      <div class="img-wrapper overflow-hidden bg-white rounded-5">
+        <img src="../../assets/images/s1.png" />
+      </div>
+    </div>
+  </div>
+  <router-outlet></router-outlet>
+  <section class="px-3 py-5">
+    <div class="row align-items-center">
+      <div class="col-6 gx-5">
+        <h2 class="mb-4 text-primary fw-bold">
+          Your Mini Website In One Business Card.
+        </h2>
+        <p class="mb-4 fs-5">
+          Create your ﬁrst unique impression & grow your network by connecting
+          instantly. With SmartCards, You can share -
+        </p>
+        <ul class="p-0">
+          <li class="mb-2">Download our Free app</li>
+          <li class="mb-2">Set up your proﬁle</li>
+          <li class="mb-2">Activate your card</li>
+          <li class="mb-2">Share all your business into with a Tap</li>
+          <li class="mb-2">
+            The other person dosen’t need an app or TapOnn product
+          </li>
+        </ul>
+      </div>
+      <div class="col-6 gx-5">
+        <div class="tapon-img-wrapper">
+          <img src="../../assets/images/tapon.webp" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <app-faq></app-faq>
+  </section>
+</section>
