@@ -42,3 +42,15 @@
         object-fit: cover;
     }
 }
+
+img-comparison-slider {
+    --divider-width: 2px;
+    --divider-color: #c0c0c0;
+    --default-handle-opacity: 1;
+
+    img {
+        height: 500px;
+        width: 700px;
+        object-fit: cover;
+    }
+}
